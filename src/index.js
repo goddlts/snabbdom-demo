@@ -85,7 +85,9 @@ function view(data) {
                   },
                   "年龄：" + hero.age
                 ),
-                h("span.right.close", { on: { click: [closeX, hero.id] } }, "x")
+                h("span.right.close", { on: { click: () => {
+                  closeX(hero.id)
+                } } }, "x")
               ])
             ]
           );

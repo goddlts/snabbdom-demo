@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /Users/js/.npm-global/bin/yarn add snabbdomß
+
+PATH: 
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/js/Desktop/snabbdom-课程/code/snabbdom-demo/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/mysql/bin:/Users/js/.npm-global/bin:/usr/local/mysql/bin:/Users/js/.npm-global/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/snabbdomß: Not found
+      at Request.params.callback [as _callback] (/Users/js/.npm-global/lib/node_modules/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/Users/js/.npm-global/lib/node_modules/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/js/.npm-global/lib/node_modules/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/Users/js/.npm-global/lib/node_modules/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1223:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "snabbdom-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "dependencies": {
+      "parcel-bundler": "^1.12.4",
+      "snabbdom": "^2.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
